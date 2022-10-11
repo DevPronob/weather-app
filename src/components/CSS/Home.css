@@ -1,0 +1,101 @@
+.search-bar img{
+    width: 140px;
+    height: 140px;
+    margin: 40px auto;
+}
+.search-bar{
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 380px;
+    padding: 20px 10px;
+    margin: auto;
+    border-radius: 4px;
+    box-shadow: rgb(85 85 85) 0px 3px 6px 0px;
+    background: white;
+}
+.parant-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.first-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.temp{
+    margin: 20px auto;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.main-img{
+    width: 100px;
+    height: 100px;
+    margin: 5px auto !important;
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 6px;
+}
+.add-info{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    padding-top: 30px;
+
+}
+.add-info img{
+    width: 36px;
+    height: 36px;
+    margin: 0 !important;
+}
+.temp span{
+    font-size: 28px;
+}
+.search-bar .info-text{
+    margin: 36px 25px 10px 10px;
+    text-transform: capitalize;
+    text-align: center;
+    width: 90%;
+    font-weight: 400;
+    font-size: 19px;
+}
+.text-name{
+    margin: 15px auto;
+    text-transform: capitalize;
+    font-size: 28px;
+    font-weight: bold;
+}
+.jvCTkj input {
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+.jvCTkj button {
+    background-color: black;
+    font-size: 14px;
+    padding: 0px 10px;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+.jvCTkj {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
